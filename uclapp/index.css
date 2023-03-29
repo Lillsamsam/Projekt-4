@@ -24,7 +24,7 @@ body {
 .infobox {
   width: 100%;
   height: 500px;
-  background-color: white;
+  background-color: #eef6f6;
   border-radius: 20px;
   color: black;
 }
@@ -33,6 +33,27 @@ body {
   display: flex;
 }
 
+<<<<<<< Updated upstream
+=======
+.img1, .img2{
+  background-color: #eef6f6;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+h2{
+  text-align: center;
+}
+
+.fronth1{
+  width: 175px;
+}
+
+/*JULIE*/
+
+>>>>>>> Stashed changes
 /*ANDREA*/
 .containerBody {
   background-color: #598590;
@@ -42,6 +63,7 @@ hr {
   border-top: 3px dotted #eef6f6;
   border-bottom: none;
 }
+<<<<<<< Updated upstream
 button {
   background-color: #e2b1b6;
   border-radius: 10px;
@@ -68,3 +90,10 @@ input {
   padding-bottom: 5px;
   width: 200px;
 }
+=======
+
+
+/*KATHRINE*/
+
+/*MICHELLE*/
+>>>>>>> Stashed changes
