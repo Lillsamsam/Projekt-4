@@ -33,8 +33,6 @@ body {
   display: flex;
 }
 
-<<<<<<< Updated upstream
-=======
 .img1, .img2{
   background-color: #eef6f6;
   width: 100%;
@@ -53,17 +51,17 @@ h2{
 
 /*JULIE*/
 
->>>>>>> Stashed changes
+
 /*ANDREA*/
-.containerBody {
+.containerBody{
   background-color: #598590;
   padding: 30px;
 }
-hr {
+hr{
   border-top: 3px dotted #eef6f6;
   border-bottom: none;
 }
-<<<<<<< Updated upstream
+
 button {
   background-color: #e2b1b6;
   border-radius: 10px;
@@ -90,10 +88,9 @@ input {
   padding-bottom: 5px;
   width: 200px;
 }
-=======
+
 
 
 /*KATHRINE*/
 
 /*MICHELLE*/
->>>>>>> Stashed changes
