@@ -3,6 +3,7 @@ body {
   background-color: white;
   margin: 0 auto;
   max-width: 500px;
+  color: #eef6f6;
 }
 
 /*DANIEL*/
@@ -26,7 +27,8 @@ body {
   border-radius: 20px;
   color: black;
 }
-.mentorimg, .vejledningimg{
+.mentorimg,
+.vejledningimg {
   display: flex;
 }
 
