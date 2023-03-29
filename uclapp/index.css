@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   max-width: 500px;
   color: #eef6f6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*DANIEL*/
@@ -32,8 +33,6 @@ body {
   display: flex;
 }
 
-/*JULIE*/
-
 /*ANDREA*/
 .containerBody {
   background-color: #598590;
@@ -43,7 +42,29 @@ hr {
   border-top: 3px dotted #eef6f6;
   border-bottom: none;
 }
-
-/*KATHRINE*/
-
-/*MICHELLE*/
+button {
+  background-color: #e2b1b6;
+  border-radius: 10px;
+  border-style: none;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+select {
+  border-radius: 10px;
+  padding: 5px 20px;
+  border-style: none;
+  width: 200px;
+}
+.checkbox {
+  padding: 10px;
+}
+.h1l {
+  text-align: center;
+}
+input {
+  border-radius: 10px;
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+}
