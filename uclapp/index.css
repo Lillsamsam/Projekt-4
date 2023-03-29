@@ -1,41 +1,40 @@
-
-/*mobil version*/
-@media only screen and (max-width: 500px) {
-  * {
-      margin: 0;
-  }
-  body{
-      display: flex;
-      flex-direction: column;
-    background-color: #598590;
-    margin: 30px;
-  }
+body {
+  display: block;
+  background-color: white;
+  margin: 0 auto;
+  max-width: 500px;
+}
 
 /*DANIEL*/
 
-  .nav{
-    display: flex;
-    flex-direction: row
-  }
-  .logo{
-    width: 50%;
-  }
-  .burgermenu{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  .info1 img, .info2 img{
-
-  }
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 50%;
+}
+.burgermenu {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.info1 img,
+.info2 img {
+}
 
 /*JULIE*/
 
 /*ANDREA*/
+.containerBody {
+  background-color: #598590;
+  padding: 30px;
+}
+hr {
+  border-top: 3px dotted #eef6f6;
+  border-bottom: none;
+}
 
 /*KATHRINE*/
 
 /*MICHELLE*/
-
-
-}
