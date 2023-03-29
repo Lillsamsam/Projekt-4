@@ -7,7 +7,8 @@
   body{
       display: flex;
       flex-direction: column;
-    background-color: lightgrey;
+    background-color: #598590;
+    margin: 30px;
   }
 
 /*DANIEL*/
@@ -23,6 +24,9 @@
     width: 50%;
     display: flex;
     justify-content: flex-end;
+  }
+  .info1 img, .info2 img{
+
   }
 
 /*JULIE*/
