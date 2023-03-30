@@ -33,7 +33,8 @@ body {
   display: flex;
 }
 
-.img1, .img2{
+.img1,
+.img2 {
   background-color: #eef6f6;
   width: 100%;
   height: 200px;
@@ -41,23 +42,22 @@ body {
   margin-top: 50px;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-.fronth1{
+.fronth1 {
   width: 175px;
 }
 
 /*JULIE*/
 
-
 /*ANDREA*/
-.containerBody{
+.containerBody {
   background-color: #598590;
   padding: 30px;
 }
-hr{
+hr {
   border-top: 3px dotted #eef6f6;
   border-bottom: none;
 }
@@ -71,9 +71,10 @@ button {
 }
 select {
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px 0px;
   border-style: none;
-  width: 200px;
+  width: 80%;
+  color: #707070;
 }
 .checkbox {
   padding: 10px;
@@ -84,12 +85,61 @@ select {
 input {
   border-radius: 10px;
   border-style: none;
-  padding-top: 5px;
+  padding-top: 5px 0px;
   padding-bottom: 5px;
-  width: 200px;
+  width: 80%;
+  color: #707070;
+}
+a {
+  text-decoration: none;
+  color: #707070;
 }
 
+* {
+  margin: 0;
+}
 
+.menuItem {
+  display: block;
+  margin: 30px;
+  color: #707070;
+  text-decoration: none;
+}
+
+.burger {
+  z-index: 100;
+  cursor: pointer;
+  padding: 0px;
+  background-color: #598590;
+  color: #eef6f6;
+}
+
+.closeIcon {
+  display: none;
+  color: #707070;
+  background-color: #c0dfe2;
+}
+
+.menu {
+  position: fixed;
+  transform: translatex(1000px);
+  transition: transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #c0dfe2;
+  color: #707070;
+  list-style: none;
+  padding-top: 4rem;
+  width: 400px;
+  margin-left: 100px;
+}
+
+.showMenu {
+  transform: translatex(0);
+}
 
 /*KATHRINE*/
 
