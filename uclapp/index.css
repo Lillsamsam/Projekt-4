@@ -60,6 +60,7 @@ h2 {
 hr {
   border-top: 3px dotted #eef6f6;
   border-bottom: none;
+  width: 80%;
 }
 
 button {
@@ -68,6 +69,7 @@ button {
   border-style: none;
   padding: 5px 20px;
   margin-top: 10px;
+  width: 80%;
 }
 select {
   border-radius: 10px;
@@ -96,7 +98,7 @@ a {
 }
 
 * {
-  margin: 0;
+  margin: 0px;
 }
 
 .menuItem {
@@ -104,37 +106,29 @@ a {
   margin: 30px;
   color: #707070;
   text-decoration: none;
+  text-align: end;
 }
 
 .burger {
-  z-index: 100;
-  cursor: pointer;
+  position: fixed;
   padding: 0px;
-  background-color: #598590;
   color: #eef6f6;
-}
-
-.closeIcon {
-  display: none;
-  color: #707070;
-  background-color: #c0dfe2;
+  background-color: #598590;
+  width: auto;
 }
 
 .menu {
   position: fixed;
-  transform: translatex(1000px);
+  transform: translatex(100%);
   transition: transform 0.5s;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  z-index: 99;
+  z-index: 100;
   background: #c0dfe2;
   color: #707070;
   list-style: none;
-  padding-top: 4rem;
-  width: 400px;
-  margin-left: 100px;
+  padding-top: 30px;
 }
 
 .showMenu {
