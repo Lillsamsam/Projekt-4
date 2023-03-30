@@ -26,7 +26,7 @@ body {
   height: 500px;
   background-color: #eef6f6;
   border-radius: 20px;
-  color: black;
+  color: #707070;
 }
 .mentorimg,
 .vejledningimg {
@@ -139,6 +139,10 @@ a {
 
 .showMenu {
   transform: translatex(0);
+}
+
+.logo {
+  width: 150px;
 }
 
 /*KATHRINE*/
