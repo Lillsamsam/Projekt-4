@@ -70,6 +70,7 @@ button {
   padding: 5px 20px;
   margin-top: 10px;
   width: 80%;
+  color: #707070;
 }
 select {
   border-radius: 10px;
@@ -137,6 +138,9 @@ a {
 
 .logo {
   width: 150px;
+}
+.checkbox {
+  width: auto;
 }
 
 /*KATHRINE*/
