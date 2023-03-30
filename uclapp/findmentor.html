@@ -6,6 +6,7 @@
   <title>UCL</title>
   <link rel="stylesheet" href="index.css">
   <script src="index.js" defer></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -13,10 +14,26 @@
     <header>
       <div class="nav">
         <div class="logo">
-          <img src="img/" alt="UCL logo">
+          <img class="logo" src="ucl_logo.png" alt="UCL logo">
         </div>
         <div class="burgermenu">
-          Menu
+          <ul class="menu">
+            <li><a class="menuItem" href="index.html">Nyheder</a></li>
+            <hr>
+            <li><a class="menuItem" href="mentor.html">Mentor</a></li>
+            <li><a class="menuItem" href="infomentor.html">Info om mentor</a></li>
+            <li><a class="menuItem" href="findmentor.html">Find en mentor</a></li>
+            <hr>
+            <li><a class="menuItem" href="vejledning.html">Vejledning</a></li>
+            <li><a class="menuItem" href="infovejleder.html">Info om vejledning</a></li>
+            <li><a class="menuItem" href="findvejleder.html">Book en vejledning</a></li>
+            <hr>
+            <button><a href="login.html">Log ud</a></button>
+          </ul>
+          <button class="burger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
         </div>
       </div>
     </header>

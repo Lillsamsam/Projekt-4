@@ -2,58 +2,75 @@
 <html>
 
 <head>
-<meta charset="UTF-8">
-<title>UCL</title>
-<link rel="stylesheet" href="index.css">
-<script src="index.js" defer></script>
+  <meta charset="UTF-8">
+  <title>UCL</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
   <div class="containerBody">
 
-  <header>
-    <div class="nav">
-      <div class="logo">
-        <img src="img/" alt="UCL logo">
+    <header>
+      <div class="nav">
+        <div class="logo">
+          <img class="logo" src="ucl_logo.png" alt="UCL logo">
+        </div>
+        <div class="burgermenu">
+          <ul class="menu">
+            <li><a class="menuItem" href="index.html">Nyheder</a></li>
+            <hr>
+            <li><a class="menuItem" href="mentor.html">Mentor</a></li>
+            <li><a class="menuItem" href="infomentor.html">Info om mentor</a></li>
+            <li><a class="menuItem" href="findmentor.html">Find en mentor</a></li>
+            <hr>
+            <li><a class="menuItem" href="vejledning.html">Vejledning</a></li>
+            <li><a class="menuItem" href="infovejleder.html">Info om vejledning</a></li>
+            <li><a class="menuItem" href="findvejleder.html">Book en vejledning</a></li>
+            <hr>
+            <button><a href="login.html">Log ud</a></button>
+          </ul>
+          <button class="burger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+          </button>
+        </div>
       </div>
-      <div class="burgermenu">
-        Menu
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
+    <main>
 
-<div class="bread">
-  <ul>
-    <li> <a href="#">bread</a> </li>
-  </ul>
-</div>
-
-<h2>Vejledning</h2>
-<hr>
-<div class="infobox">
-  <div class="infoboxmentor">
-    <h3>Mød dine vejleder</h3>
-      <div class="vejledningimg">
-        <img src="" alt="billed af UCL mentor til vejledning">
-        <img src="" alt="billed af UCL mentor til vejledning">
-      </div>
-      <div class="vejledningtekst">
-        <p>info omkring mentor</p>
-        <a href="#">Find den næste ledige tid</a>
+      <div class="bread">
+        <ul>
+          <li> <a href="#">bread</a> </li>
+        </ul>
       </div>
 
-  </div>
-</div>
+      <h2>Vejledning</h2>
+      <hr>
+      <div class="infobox">
+        <div class="infoboxmentor">
+          <h3>Mød dine vejleder</h3>
+          <div class="vejledningimg">
+            <img src="" alt="billed af UCL mentor til vejledning">
+            <img src="" alt="billed af UCL mentor til vejledning">
+          </div>
+          <div class="vejledningtekst">
+            <p>info omkring mentor</p>
+            <a href="#">Find den næste ledige tid</a>
+          </div>
+
+        </div>
+      </div>
 
 
 
-  </main>
+    </main>
 
-  <footer>
+    <footer>
 
-  </footer>
+    </footer>
 
   </div>
 </body>
