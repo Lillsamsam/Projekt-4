@@ -1,10 +1,11 @@
 body {
   display: block;
-  background-color: white;
   margin: 0 auto;
-  max-width: 500px;
   color: #eef6f6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #598590;
+  padding: 40px;
+  max-width: 500px;
 }
 
 /*DANIEL*/
@@ -44,6 +45,7 @@ body {
 
 h2 {
   text-align: center;
+  margin: 10px;
 }
 
 .fronth1 {
@@ -53,30 +55,31 @@ h2 {
 /*JULIE*/
 
 /*ANDREA*/
-.containerBody {
-  background-color: #598590;
-  padding: 30px;
+header {
+  margin-bottom: 40px;
 }
 hr {
   border-top: 3px dotted #eef6f6;
   border-bottom: none;
-  width: 80%;
+  display: block;
+  margin: 10px auto 0px auto;
 }
 
 button {
   background-color: #e2b1b6;
   border-radius: 10px;
   border-style: none;
-  padding: 5px 20px;
   margin-top: 10px;
-  width: 80%;
+  width: 100%;
+  height: 30px;
   color: #707070;
+  font-weight: bold;
 }
 select {
   border-radius: 10px;
-  padding: 5px 0px;
   border-style: none;
-  width: 80%;
+  width: 100%;
+  height: 30px;
   color: #707070;
 }
 .checkbox {
@@ -88,9 +91,8 @@ select {
 input {
   border-radius: 10px;
   border-style: none;
-  padding-top: 5px 0px;
-  padding-bottom: 5px;
-  width: 80%;
+  width: 100%;
+  height: 30px;
   color: #707070;
 }
 a {
@@ -104,15 +106,15 @@ a {
 
 .menuItem {
   display: block;
-  margin: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
   color: #707070;
   text-decoration: none;
-  text-align: end;
+  width: fit-content;
 }
 
 .burger {
-  position: fixed;
-  padding: 0px;
   color: #eef6f6;
   background-color: #598590;
   width: auto;
@@ -129,7 +131,9 @@ a {
   background: #c0dfe2;
   color: #707070;
   list-style: none;
-  padding-top: 30px;
+  width: 100%;
+  max-width: 420px;
+  padding: 40px;
 }
 
 .showMenu {
@@ -141,6 +145,15 @@ a {
 }
 .checkbox {
   width: auto;
+}
+h3 {
+  margin: 10px;
+}
+.menu hr {
+  border-top: 3px dotted #598590;
+  margin-bottom: 40px;
+  margin-left: 50%;
+  width: 50%;
 }
 
 /*KATHRINE*/

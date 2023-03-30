@@ -2,83 +2,75 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>UCL</title>
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js" defer></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>UCL</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-  <div class="containerBody">
     <header>
-      <div class="nav">
-        <div class="logo">
-          <img class="logo" src="pictures/ucl_logo.png" alt="UCL logo">
+        <div class="nav">
+            <div class="logo">
+                <img class="logo" src="pictures/ucl_logo.png" alt="UCL logo">
+            </div>
+            <div class="burgermenu">
+                <ul class="menu">
+                    <li><a class="menuItem" href="index.html"><b>Nyheder</b></a></li>
+                    <hr>
+                    <li><a class="menuItem"><b>Mentor</b></a></li>
+                    <li><a class="menuItem" href="infomentor.html">Info om mentor</a></li>
+                    <li><a class="menuItem" href="findmentor.html">Find en mentor</a></li>
+                    <hr>
+                    <li><a class="menuItem"><b>Vejledning</b></a></li>
+                    <li><a class="menuItem" href="infovejleder.html">Info om vejledning</a></li>
+                    <li><a class="menuItem" href="findvejleder.html">Book en vejledning</a></li>
+                    <hr>
+                    <button><a href="login.html">Log ud</a></button>
+                </ul>
+                <button class="burger">
+                    <div class="menu-icon material-icons">menu</div>
+                </button>
+            </div>
         </div>
-        <div class="burgermenu">
-          <ul class="menu">
-            <li><a class="menuItem" href="index.html"><b>Nyheder</b></a></li>
-            <hr>
-            <li><a class="menuItem"><b>Mentor</b></a></li>
-            <li><a class="menuItem" href="infomentor.html">Info om mentor</a></li>
-            <li><a class="menuItem" href="findmentor.html">Find en mentor</a></li>
-            <hr>
-            <li><a class="menuItem"><b>Vejledning</b></a></li>
-            <li><a class="menuItem" href="infovejleder.html">Info om vejledning</a></li>
-            <li><a class="menuItem" href="findvejleder.html">Book en vejledning</a></li>
-            <hr>
-            <button><a href="login.html">Log ud</a></button>
-          </ul>
-          <button class="burger">
-            <div class="menu-icon material-icons">menu</div>
-          </button>
-        </div>
-      </div>
     </header>
     <main>
-      <div class="bread">
-        <ul>
-          <li> <a href="#">bread</a> </li>
-          <li></li>
-        </ul>
-      </div>
-      <h2>Book en tid
-        <br>
-        til vejledning
-      </h2>
-      <hr>
-      <h3>ledige tider</h3>
-      <form>
-        <h3>Dato</h3>
-        <select>
-          <option>Ons. d. 15 marts</option>
-          <option>Tor. d. 16 marts</option>
-          <option>Fre. d. 17 marts</option>
-          <option>Man. d. 20 marts</option>
-          <option>Tir. d. 21 marts</option>
-        </select>
-        <br>
-        <h3>Tid</h3>
-        <select>
-          <option>08:00-09:00</option>
-          <option>09:00-10:00</option>
-          <option>10:00-11:00</option>
-          <option>12:00-13:00</option>
-          <option>13:00-14:00</option>
-        </select>
-        <br>
-        <div class="checkbox">
-          <input class="checkbox" type="checkbox"> Få en besked på SMS
-          <br>
-          <input class="checkbox" type="checkbox"> Få en besked på Email
-        </div>
-        <button>Book tid</button>
-      </form>
+        <h2>Book en tid
+            <br>
+            til vejledning
+        </h2>
+        <hr>
+        <h3>ledige tider</h3>
+        <form>
+            <h3>Dato</h3>
+            <select>
+                <option>Ons. d. 15 marts</option>
+                <option>Tor. d. 16 marts</option>
+                <option>Fre. d. 17 marts</option>
+                <option>Man. d. 20 marts</option>
+                <option>Tir. d. 21 marts</option>
+            </select>
+            <br>
+            <h3>Tid</h3>
+            <select>
+                <option>08:00-09:00</option>
+                <option>09:00-10:00</option>
+                <option>10:00-11:00</option>
+                <option>12:00-13:00</option>
+                <option>13:00-14:00</option>
+            </select>
+            <br>
+            <div class="checkbox">
+                <input class="checkbox" type="checkbox"> Få en besked på SMS
+                <br>
+                <input class="checkbox" type="checkbox"> Få en besked på Email
+            </div>
+            <button>Book tid</button>
+        </form>
     </main>
     <footer>
     </footer>
-  </div>
 </body>
 
 </html>
