@@ -2,7 +2,6 @@
 
 /*ANDREA*/
 const menu = document.querySelector(".menu");
-const menuItems = document.querySelectorAll(".menuItem");
 const burger = document.querySelector(".burger");
 
 function toggleMenu() {
