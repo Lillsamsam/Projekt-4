@@ -6,6 +6,7 @@ body {
   background-color: #598590;
   padding: 40px;
   max-width: 500px;
+  min-height: 800px;
 }
 
 /*DANIEL*/
@@ -84,6 +85,7 @@ select {
 }
 .checkbox {
   padding: 10px;
+  width: auto;
 }
 .h1l {
   text-align: center;
@@ -143,9 +145,7 @@ a {
 .logo {
   width: 150px;
 }
-.checkbox {
-  width: auto;
-}
+
 h3 {
   margin: 10px;
 }
