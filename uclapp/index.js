@@ -76,16 +76,12 @@ var userArray = [
     }
 ]
 
-
 function loginFunction () {
      let username = document.getElementById("myText").value;
      let password = document.getElementById("myText1").value;
   let currentUser = userArray.filter( user=> user.username == username && user.password == password)
-  currentUser.length ? window.location.href="index.html": console.log('Wrong data');
+  currentUser.length ? console.log('Hello'): console.log('Wrong data')
 }
-
-
-
 
 const button = document.getElementById("button");
 button.addEventListener('click', () => {
