@@ -52,6 +52,13 @@ h2 {
 .fronth1 {
   width: 175px;
 }
+.bread ul{
+  list-style: none;
+}
+.bread a{
+  color: white;
+}
+
 
 /*JULIE*/
 * {box-sizing: border-box}
