@@ -13,25 +13,17 @@
         <h1 class="h1l">Login</h1>
         <hr>
     </header>
-    <main>
-        <form class="login">
-            <h3>Username</h3>
-            <input type="username" id="myText" value="">
-            <br>
-            <h3>Password</h3>
-            <input type="password" id="myText1" value="">
-            <br>
-            <h3>Campus</h3>
-            <select>
-                <option>UCL Niels Bohrs Allé</option>
-                <option>UCL Seebladsgade</option>
-                <option>UCL Vestre Engvej</option>
-                <option>UCL Boulevarden</option>
-                <option>UCL Klostervænget</option>
-                <option>UCL Stationsvej</option>
-                <option>UCL Fredericia</option>
-            </select>
-            <br>
+      <main>
+        <div class="dropdown">
+        <input class="dropbox" type="box" placeholder="Vælg lokation">
+            <div class="options">
+                <div onclick="show('Niels Bohrs Alle')">Niels Bohrs Alle</div>
+                <div onclick="show('Seebladsgade')">Seebladsgade</div>
+                <div onclick="show('Klostervænget')">Klostervænget</div>
+                <div onclick="show('Boulevarden')">Boulevarden</div>
+            </div>
+        </div>
+
             <button  id="button">log på</button>
         </form>
 
