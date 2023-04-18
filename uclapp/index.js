@@ -63,13 +63,13 @@ function show(value) {
       dropdown.classList.toggle("active")
   }
 /*slides*/
-let currentSlide = 0;
+
 
 function startSlider() {
-  let imageCount = document.querySelectorAll("img");
+  let imageCount = document.querySelectorAll(".infom");
 
   if (imageCount.length === 0) {
-    imageCount = document.querySelectorAll("img");
+    imageCount = document.querySelectorAll(".infom");
     images.style.transform = `translateX(0px)`;
     return;
   }
