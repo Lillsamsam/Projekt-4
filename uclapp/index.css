@@ -306,4 +306,40 @@ h3 {
    padding: 12px 20px;
    cursor: pointer;
 }
+/*slides*/
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: #8B54E1;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    transition: all 1s ease;
+}
+
+.slider {
+  width: 450px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 3px;
+
+}
+
+img {
+  width: 450px;
+  height: 250px;
+  border-radius: 3px;
+}
+
 /*MICHELLE*/
