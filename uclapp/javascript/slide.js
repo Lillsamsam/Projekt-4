@@ -41,7 +41,7 @@ function startSlider() {
     return;
   }
 
-  let images = document.querySelector("ul");
+  let images = document.querySelector(".slideK");
   images.style.transform = `translateX(-${currentSlide * 450}px)`;
 
   if (currentSlide === imageCount.length - 1) {

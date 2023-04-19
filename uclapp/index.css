@@ -70,6 +70,17 @@ margin-right: 10px;
   margin-top: 5px;
 }
 
+.loginBut{
+  background-color: #e2b1b6;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  color: #707070;
+  font-weight: bold;
+}
+
 /*JULIE*/
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -318,7 +329,7 @@ h3 {
 }
 /*slides*/
 
-ul {
+.slideK {
     display: flex;
     list-style: none;
     transition: all 1s ease;
