@@ -1,10 +1,22 @@
 /*ANDREA*/
-let select_element = document.getElementsByClassName("selektboks");
-let options = ["08:00-09:00", "09:00-10:00", "10:00-11:00", "12:00-13:00", "13:00-14:00", "14:00-15:00"];
+let selektElementA = document.getElementById("selektboksA");
 
-select_element.innerHTML = "";
+let optionsA = ["10:00-10:30","10:30-11:00","11:00-11:30","11:30-12:00","12:00-12:30","12:30-13:00"]
 
-for (let i = 0; i < options.length; i++) {
-  let opt = options[i];
-  select_element.innerHTML += "<option value=\"" + opt + "\">" + opt + "</option>";}
+selektElementA.innerHTML = "";
+
+for(let i = 0; i <optionsA.length; i++){
+    let optA = optionsA[i];
+    selektElementA.innerHTML+="<option value=\"" + optA + "\">" + optA + "</option>";
+}
+
+/*Kathrine*/
+function show(value) {
+    document.querySelector(".dropbox").value = value;
+  }
+
+  let dropdown = document.querySelector(".dropdown")
+  dropdown.onclick = function() {
+      dropdown.classList.toggle("active")
+  }
 
