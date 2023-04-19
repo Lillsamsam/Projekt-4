@@ -15,6 +15,33 @@
         <hr>
     </header>
     <main>
+
+<div class="container">
+  <form action="index.html">
+    <label for="usrname"><h3>Brugernavn</h3></label>
+    <input type="text" placeholder="student@ucl.dk" id="usrname" name="usrname" required>
+
+    <label for="psw"><h3>Kodeord</h3></label>
+    <input type="password" placeholder="********" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Din kode skal indeholde mindst et lille og stort bogstav, et tal og mindst 8 tegn" required>
+      <div class="show">
+            <div class="show1">
+              <input type="checkbox" onclick="myFunction()">
+            </div>
+            <div class="show2">
+              <p>Vis kodeord</p>
+            </div>
+      </div>
+
+
+    <label for=""><h3>Campus</h3></label>
+
+    <input type="submit" value="Log på">
+  </form>
+</div>
+
+
+      <form class="container" action="index.html" method="post">
+        <input class="c" type="checkbox">
         <div class="dropdown">
             <input class="dropbox" type="box" placeholder="Vælg lokation">
             <div class="options">
@@ -24,8 +51,6 @@
                 <div onclick="show('Boulevarden')">Boulevarden</div>
             </div>
         </div>
-
-        <button id="button">log på</button>
         </form>
 
 

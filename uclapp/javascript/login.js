@@ -3,7 +3,7 @@
 // viser koden hvis man klikker checkboxen af
 
 function myFunction() {
-  let x = document.getElementById("psw");
+  var x = document.getElementById("psw");
   if (x.type === "password") {
     x.type = "text";
   } else {
@@ -11,27 +11,84 @@ function myFunction() {
   }
 }
 
+//kode om login krav begynder
+let myInput = document.getElementById("psw");
+let letter = document.getElementById("letter");
+let capital = document.getElementById("capital");
+let number = document.getElementById("number");
+let length = document.getElementById("length");
 
-// premade koder
+// When the user clicks on the password field, show the message box
+myInput.onfocus = function() {
+  document.getElementById("message").style.display = "block";
+}
 
+// Får boksen til at forsvinde
+myInput.onblur = function() {
+  document.getElementById("message").style.display = "none";
+}
+
+// When the user starts to type something inside the password field
+myInput.onkeyup = function() {
+
+
+  // Validate lowercase letters
+  let lowerCaseLetters = /[a-z]/g;
+  if(myInput.value.match(lowerCaseLetters)) {
+    letter.classList.remove("invalid");
+    letter.classList.add("valid");
+  } else {
+    letter.classList.remove("valid");
+    letter.classList.add("invalid");
+  }
+
+  // Validate capital letters
+  let upperCaseLetters = /[A-Z]/g;
+  if(myInput.value.match(upperCaseLetters)) {
+    capital.classList.remove("invalid");
+    capital.classList.add("valid");
+  } else {
+    capital.classList.remove("valid");
+    capital.classList.add("invalid");
+  }
+
+  // Validate numbers
+  let numbers = /[0-9]/g;
+  if(myInput.value.match(numbers)) {
+    number.classList.remove("invalid");
+    number.classList.add("valid");
+  } else {
+    number.classList.remove("valid");
+    number.classList.add("invalid");
+  }
+
+  // Validate length
+  if(myInput.value.length >= 8) {
+    length.classList.remove("invalid");
+    length.classList.add("valid");
+  } else {
+    length.classList.remove("valid");
+    length.classList.add("invalid");
+  }
+}
+
+
+
+
+
+
+
+/*
 var userArray = [
-    {
-        username: "user1",
-        password: "pw1"
-    },
-    {
-        username: "user2",
-        password: "pw2"
-    },
-    {
-        username: "user3",
-        password: "pw3"
+  {
+        username: "student@ucl.dk",
+        password: "Student1"
     }
 ]
 
 function loginFunction () {
-     let username = document.getElementById("myText").value;
-     let password = document.getElementById("myText1").value;
+     let username = document.getElementById("usrname").value;
+     let password = document.getElementById("psw").value;
   let currentUser = userArray.filter( user=> user.username == username && user.password == password)
   currentUser.length ? console.log('Hello'): console.log('Wrong data')
 }
@@ -40,3 +97,4 @@ const button = document.getElementById("button");
 button.addEventListener('click', () => {
 loginFunction();
 });
+*/

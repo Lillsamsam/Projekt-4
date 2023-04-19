@@ -58,7 +58,17 @@ h2 {
 .bread a{
   color: white;
 }
+.show{
+display: flex;
+justify-content: flex-end;
+}
+.show1{
+margin-right: 10px;
 
+}
+.show2{
+  margin-top: 5px;
+}
 
 /*JULIE*/
 * {box-sizing: border-box}
@@ -130,7 +140,7 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
