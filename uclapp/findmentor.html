@@ -9,6 +9,8 @@
     <script src="javascript/kalender.js" defer></script>
     <script src="javascript/dropdown.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 
 <body>
@@ -53,35 +55,31 @@
         <hr>
         <h3>ledige tider</h3>
         <form>
-            <div class="wrapper">
-                <header>
-                  <p class="current-date"></p>
-                  <div class="icons">
-                    <span id="prev" class="material-symbols-rounded">chevron_left</span>
-                    <span id="next" class="material-symbols-rounded">chevron_right</span>
-                  </div>
-                </header>
-                <div class="calendar">
-                  <ul class="weeks">
-                
-                    <li>Man</li>
-                    <li>Tir</li>
-                    <li>Ons</li>
-                    <li>Tor</li>
-                    <li>Fre</li>
-                    <li>Lør</li>
-                    <li>Søn</li>
-                  </ul>
-                  <ul class="days"></ul>
-                </div>
-              </div>
-            <h3>Dato</h3>
             <select>
-                <option>Ons. d. 15 marts</option>
-                <option>Tor. d. 16 marts</option>
-                <option>Fre. d. 17 marts</option>
-                <option>Man. d. 20 marts</option>
-                <option>Tir. d. 21 marts</option>
+                <div class="wrapper">
+                    <header>
+                        <p class="current-date"></p>
+                        <div class="icons">
+                            <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                            <span id="next" class="material-symbols-rounded">chevron_right</span>
+                        </div>
+                    </header>
+
+                </div>
+                <h3>Dato</h3>
+                <div class="calendar">
+                    <ul class="weeks">
+
+                        <li>Man</li>
+                        <li>Tir</li>
+                        <li>Ons</li>
+                        <li>Tor</li>
+                        <li>Fre</li>
+                        <li>Lør</li>
+                        <li>Søn</li>
+                    </ul>
+                    <ul class="days"></ul>
+                </div>
             </select>
             <br>
             <h3>Tid</h3>
