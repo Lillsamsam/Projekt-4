@@ -61,7 +61,8 @@ h2 {
 }
 
 .fronth1 {
-  width: 175px;
+    font-size: 40px;
+  font-weight: 250;
 }
 .bread ul{
   list-style: none;
@@ -74,14 +75,26 @@ h2 {
 .show{
 display: flex;
 justify-content: flex-end;
+margin-top: 5px;
 }
+
 .show1{
 margin-right: 10px;
-
 }
 .show2{
+  padding-top: 2px;
   margin-top: 5px;
 }
+
+.checkbox {
+display: flex;
+}
+.check1{
+  margin-right: 10px;
+}
+.checkt{
+  font-size: 12px;
+  padding-top: 2px;}
 
 .loginBut{
   background-color: #e2b1b6;
@@ -210,6 +223,8 @@ input {
   height: 30px;
   color: #707070;
 }
+#selektboksA{
+  margin-bottom: 10px;}
 a {
   text-decoration: none;
   color: #707070;
