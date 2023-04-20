@@ -83,7 +83,7 @@ margin-right: 10px;
   background-color: #e2b1b6;
   border-radius: 10px;
   border-style: none;
-  margin-top: 10px;
+  margin-top: 70px;
   width: 100%;
   height: 30px;
   color: #707070;
@@ -284,7 +284,7 @@ h1{
 /*KATHRINE*/
 .dropdown {
    position: absolute;
-   width: 100%;
+   width: 420px;
    height: 30px;
 }
 
