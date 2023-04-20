@@ -54,11 +54,14 @@ body {
 h2 {
   text-align: center;
   margin: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 250;
+  padding-bottom: 20px;
 }
 
 .fronth1 {
-  font-size: 40px;
-  font-weight: 250;
+  width: 175px;
 }
 .bread ul{
   list-style: none;
@@ -71,28 +74,14 @@ h2 {
 .show{
 display: flex;
 justify-content: flex-end;
-margin-top: 5px;
 }
-
 .show1{
 margin-right: 10px;
+
 }
 .show2{
-  padding-top: 2px;
+  margin-top: 5px;
 }
-
-.checkbox {
-display: flex;
-}
-.check1{
-  margin-right: 10px;
-}
-.checkt{
-  font-size: 12px;
-  padding-top: 2px;
-}
-
-
 
 .loginBut{
   background-color: #e2b1b6;
@@ -116,7 +105,6 @@ img {vertical-align: middle;}
   max-width: 500px;
   position: relative;
   margin: auto;
-  border-radius: 30px;
 }
 
 /* Next & previous knapper */
@@ -208,10 +196,10 @@ select {
   height: 30px;
   color: #707070;
 }
-#selektboksA{
-  margin-bottom: 10px;
+.checkbox {
+  padding: 10px;
+  width: auto;
 }
-
 .h1l {
   text-align: center;
 }
@@ -300,9 +288,12 @@ h1{
 p{
   line-height: 25px;
 }
-
 img{
   border-radius: 20px;
+}
+.findH3{
+   text-align: center;
+  padding: 20px 0px;
 }
 
 /*KATHRINE*/
