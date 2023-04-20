@@ -10,12 +10,3 @@ for(let i = 0; i <optionsA.length; i++){
     selektElementA.innerHTML+="<option value=\"" + optA + "\">" + optA + "</option>";
 }
 
-/*Kathrine*/
-function show(value) {
-    document.querySelector(".box").value = value;
-  }
-
-  let dropdown = document.querySelector(".dropdown")
-  dropdown.onclick = function() {
-      dropdown.classList.toggle("active")
-}
