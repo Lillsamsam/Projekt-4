@@ -281,6 +281,10 @@ h1{
   color: #eef6f6;
 }
 
+p{
+  line-height: 25px;
+}
+
 /*KATHRINE*/
 .dropdown {
    position: absolute;
@@ -501,7 +505,7 @@ header .current-date{
   transform: translate(-50%, -50%);
 }
 .days li.active::before{
-  background: #9B59B6;
+  background: #e2b1b6;
 }
 .days li:not(.active):hover::before{
   background: #f2f2f2;
