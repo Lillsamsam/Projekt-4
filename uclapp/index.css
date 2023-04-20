@@ -343,7 +343,9 @@ h1{
 }
 /*slides*/
 
-.slideK {
+
+
+ul {
     display: flex;
     list-style: none;
     transition: all 1s ease;
@@ -357,7 +359,7 @@ h1{
 
 }
 
-.infom {
+img {
   width: 450px;
   height: 250px;
   border-radius: 3px;
