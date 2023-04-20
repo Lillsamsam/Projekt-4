@@ -415,7 +415,8 @@ img {vertical-align: middle;}
 
 /*MICHELLE*/
 .wrapper{
-  max-width: 275px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   background: #fff;
   border-radius: 10px;
@@ -426,6 +427,9 @@ img {vertical-align: middle;}
   align-items: center;
   padding: 25px 30px 10px;
   justify-content: space-between;
+}
+.current-date {
+  color: #707070;
 }
 header .icons{
   display: flex;
@@ -453,7 +457,7 @@ header .current-date{
   font-weight: 500;
 }
 .calendar{
-  padding: 20px;
+  padding: 10px;
 }
 .calendar ul{
   display: flex;
