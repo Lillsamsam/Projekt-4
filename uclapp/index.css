@@ -70,14 +70,28 @@ h2 {
 .show{
 display: flex;
 justify-content: flex-end;
+margin-top: 5px;
 }
+
 .show1{
 margin-right: 10px;
-
 }
 .show2{
-  margin-top: 5px;
+  padding-top: 2px;
 }
+
+.checkbox {
+display: flex;
+}
+.check1{
+  margin-right: 10px;
+}
+.checkt{
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+
 
 .loginBut{
   background-color: #e2b1b6;
@@ -192,10 +206,10 @@ select {
   height: 30px;
   color: #707070;
 }
-.checkbox {
-  padding: 10px;
-  width: auto;
+#selektboksA{
+  margin-bottom: 10px;
 }
+
 .h1l {
   text-align: center;
 }
