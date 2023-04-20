@@ -31,9 +31,11 @@ function showSlides(n) {
 }
 
 /*KATHRINE*/
+let currentSlide = 0;
 
 function startSlider() {
   let imageCount = document.querySelectorAll("img");
+
 
   if (imageCount.length === 0) {
     imageCount = document.querySelectorAll("img");
@@ -41,7 +43,7 @@ function startSlider() {
     return;
   }
 
-  let images = document.querySelector(".slideK");
+  let images = document.querySelector("ul");
   images.style.transform = `translateX(-${currentSlide * 450}px)`;
 
   if (currentSlide === imageCount.length - 1) {
@@ -54,7 +56,6 @@ function startSlider() {
 setInterval(() => {
   startSlider();
 }, 5000);
-
 /*
 let slideIndex = 0;
 showSlides();
