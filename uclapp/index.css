@@ -54,9 +54,9 @@ body {
 h2 {
   text-align: center;
   margin: 10px;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 20px;
-  font-weight: 250;
+  font-weight:bold;
   padding-bottom: 20px;
 }
 
@@ -80,6 +80,7 @@ margin-top: 5px;
 
 .show1{
 margin-right: 10px;
+box-shadow: none;
 }
 .show2{
   padding-top: 2px;
@@ -88,6 +89,7 @@ margin-right: 10px;
 
 .checkbox {
 display: flex;
+height: 30px;
 }
 .check1{
   margin-right: 10px;
@@ -98,13 +100,15 @@ display: flex;
 
 .loginBut{
   background-color: #e2b1b6;
-  border-radius: 20px;
+  border-radius: 30px;
   border-style: none;
-  margin-top: 70px;
+  margin-top: 120px;
   width: 100%;
-  height: 30px;
+  height: 40px;
   color: #707070;
   font-weight: bold;
+  font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /*JULIE*/
@@ -194,13 +198,17 @@ hr {
 
 button {
   background-color: #e2b1b6;
-  border-radius: 20px;
+  border-radius: 30px;
   border-style: none;
   margin-top: 10px;
   width: 100%;
-  height: 30px;
+  height: 40px;
   color: #707070;
   font-weight: bold;
+  font-size: large;
+}
+.tidbut{
+  margin-top: 40px;
 }
 select {
   border-radius: 20px;
@@ -212,22 +220,30 @@ select {
 .checkbox {
   padding: 10px;
   width: auto;
+  box-shadow: none;
 }
 .h1l {
   text-align: center;
+  font-size: 40px;
+  font-weight: 250;
 }
 input {
-  border-radius: 20px;
+  border-radius: 30px;
   border-style: none;
   width: 100%;
-  height: 30px;
+  height: 50px;
   color: #707070;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #selektboksA{
-  margin-bottom: 10px;}
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 30px;
+}
 a {
   text-decoration: none;
   color: #707070;
+  
 }
 
 * {
@@ -276,12 +292,18 @@ a {
 h3 {
   margin-bottom: 10px;
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 250;
 }
+
 .menu hr {
   border-top: 3px dotted #598590;
   margin-bottom: 40px;
   margin-left: 50%;
   width: 50%;
+}
+.infoh3{
+  font-weight: bold;
 }
 .cardfront{
   background-color: #c0dfe2;
@@ -298,6 +320,9 @@ h1{
 .indexbut{
   background-color: #598590;
   color: #eef6f6;
+  height: 40px;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 p{
@@ -315,7 +340,7 @@ img{
 .dropdown {
    position: absolute;
    width: 420px;
-   height: 30px;
+   height: 50px;
 }
 
 .dropdown::before {
@@ -350,7 +375,7 @@ img{
    font-size: 1.2em;
    border: none;
    outline: none;
-   border-radius: 20px;
+   border-radius: 30px;
 }
 
 .dropdown .options {
