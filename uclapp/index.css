@@ -330,6 +330,8 @@ p{
 }
 img{
   border-radius: 20px;
+  display: block;
+  margin: 0 auto;
 }
 .findH3{
    text-align: center;
