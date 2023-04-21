@@ -206,6 +206,7 @@ button {
   color: #707070;
   font-weight: bold;
   font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .tidbut{
   margin-top: 40px;
@@ -239,6 +240,7 @@ input {
   margin-bottom: 10px;
   height: 50px;
   border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 a {
   text-decoration: none;
@@ -264,6 +266,7 @@ a {
   color: #eef6f6;
   background-color: #598590;
   width: auto;
+  box-shadow: none;
 }
 
 .menu {
@@ -311,6 +314,7 @@ h3 {
   padding: 20px;
   margin-top: 20px;
   color: #707070;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 h1{
   font-size: 30px;
@@ -323,6 +327,7 @@ h1{
   height: 40px;
   font-size: 20px;
   font-weight: normal;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 
 p{
